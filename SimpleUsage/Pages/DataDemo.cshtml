@@ -7,8 +7,10 @@
 <h1>DataDemo</h1>
 
 <p>
-    @foreach (var person in Model.People)
-    {
-
-    }
+    <ul>
+        @foreach (var person in Model.People)
+        {
+            <li>@person.FirstName @person.LastName </li>
+        }
+    </ul>
 </p>

@@ -11,7 +11,7 @@ namespace SimpleUsage.Pages
     public class DataDemoModel : PageModel
     {
 
-        List<PersonModel> People { get; set; } = new List<PersonModel>();
+        public List<PersonModel> People { get; set; } = new List<PersonModel>();
 
         public void OnGet()
         {
